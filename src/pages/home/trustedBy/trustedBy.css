@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.trustedBy {
+    background-color: rgba(211, 211, 211, 0.342);
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: center;
+    height: 6rem;
+}
+
+.trustedBy span {
+    font-weight: 700;
+    color: rgb(189, 187, 187);
+}
+
+/* .trustedBy img {} */

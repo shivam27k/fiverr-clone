@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.featured {
+    display: flex;
+    height: 41rem;
+    justify-content: center;
+    background-color: #013914;
+    color: white;
+}
+
+.featured .component {
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+
+/* left section */
+
+.featured .component .left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.featured .component .left h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+.featured .component .left h1 .italic {
+    font-weight: 100;
+    font-style: italic;
+}
+
+.featured .component .left .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.featured .component .left .search .searchInput {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+
+.featured .component .left .search .searchInput img {
+    width: 1.6rem;
+    height: 1.6rem;
+    opacity: 0.5;
+    margin: 0.8rem;
+}
+
+.featured .component .left .search .searchInput input {
+    border: none;
+    outline: none;
+    padding: 0.9rem 38rem 0.9rem 0rem;
+}
+
+.featured .component .left .search button {
+    padding: 1.1rem 2.2rem;
+    border: none;
+    margin: 0;
+    background-color: #00dd4a;
+    color: white;
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.featured .component .left .popular {
+    font-weight: 500;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+/* .featured .component .left .popular span {} */
+
+.featured .component .left .popular button {
+    color: white;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+/* right section */
+
+/* .featured .component .right {} */
+
+.featured .component .right img {
+    height: 41rem;
+    opacity: 0.7;
+}

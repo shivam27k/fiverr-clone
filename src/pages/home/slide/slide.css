@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.slide .container {
+    width: 85.5vw;
+    border: 2px solid transparent;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.slide .container h1{
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.slide .container .carousel-prev {
+    width: 3rem;
+    height: 3rem;
+    background-color: lightgray;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.slide .container .carousel-next {
+    width: 3rem;
+    height: 3rem;
+    background-color: lightgray;
+    border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}

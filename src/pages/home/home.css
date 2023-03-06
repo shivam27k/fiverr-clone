@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.features {
+    padding: 6rem 16rem;
+    background-color: rgba(127, 255, 212, 0.2);
+    /* border: 2px solid red; */
+}
+
+.features .container {
+    display: flex;
+    gap: 13rem;
+}
+
+.features .container .item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.features .container .item h1 {
+    font-size: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.71);
+}
+
+.features .container .item .title {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-weight: 700;
+    font-size: 1.08rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.features .container .item .title img {
+    width: 1.3rem;
+    opacity: 0.5;
+}
+
+.features .container .item p {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 1.15rem;
+    padding-bottom: 0.9rem;
+    letter-spacing: 0.02rem;
+}
+
+.features .container .item video {
+    width: 44rem;
+    border-radius: 6px;
+}
+
+
+
+/* 2ND FEATURES */
+
+
+
+.features:last-child {
+    background-color: #0d084d;
+}
+
+.features:last-child .container {
+    display: flex;
+    gap: 1rem;
+}
+
+.features:last-child .container .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features:last-child .container .item h1 {
+    font-size: 2rem;
+    color: white;
+    width: 26rem;
+    padding-bottom: 1.8rem;
+}
+
+.features:last-child .container .item .head {
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+
+.features:last-child .container .item h1 .first-span {
+    font-style: normal;
+    font-weight: 400;
+}
+
+.features:last-child .container .item h1 span {
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+.features:last-child .container .item p {
+    padding-bottom: 1.8rem;
+    color: white;
+    width: 30rem;
+    font-weight: 500;
+}
+
+.features:last-child .container .item .title {
+    width: 35rem;
+    color: white;
+    /* gap: rem; */
+    padding: 1rem 0 0 0;
+    font-weight: 400;
+}
+
+.features:last-child .container .item .title button {
+    margin-top: 2.1rem;
+    padding: 0.7rem 1.5rem;
+    color: white;
+    background-color: #1dbf73;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.features:last-child .container .item .title img {
+    width: 1.3rem;
+    opacity: 0.4; 
+}
+
+
+.features:last-child .container .item .feature-image {
+    width: 100%;
+    /* border: 2px solid green; */
+    /* padding: 2rem; */
+}

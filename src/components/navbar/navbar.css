@@ -1,0 +1,131 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #013914;
+    color: white;
+    position: sticky;
+    top: 0;
+    transition: 0.5s all ease;
+}
+
+.active {
+    background-color: white;
+    color: black;
+    z-index: 100;
+}
+
+.navbar .container {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+/* .navbar .container .logo {} */
+
+.navbar .container .logo .text {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navbar .container .logo .dot {
+    font-size: 2.5rem;
+    color: rgb(42, 211, 0);
+    font-weight: 700;
+}
+
+.navbar .container .links {
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.navbar .container .currentUser-links {
+    width: 25vw;
+}
+
+.navbar .container .links .join-button {
+    width: 4.8rem;
+    height: 2.8rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.navbar .container .links .join-button:hover {
+    background-color: #1dbf73;
+    border-color: #1dbf73;
+}
+
+.navbar .container .links .active-btn {
+    border: 1px solid black;
+    color: black;
+}
+
+.navbar .container .links .user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar .container .links .user img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbar .container .links .user .options {
+    position: absolute;
+    top: 3rem;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: gray;
+    width: 200%;
+    height: fit-content;
+    font-weight: 500;
+}
+
+.navbar .container .links .user .options .link {
+    border-radius: 5px;
+    padding: 15px 15px;
+    transition-duration: 0.5s;
+}
+
+.navbar .container .links .user .options .link:nth-child(n+1):hover {
+    background-color: rgba(211, 211, 211, 0.582);
+    color: black;
+}
+
+.navbar hr {
+    width: 99.9%;
+    height: 0vh;
+    border: 0.1px solid lightgray;
+}
+
+.navbar .menu {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    color: gray;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.8rem 0;
+}
