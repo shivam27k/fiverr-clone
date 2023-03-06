@@ -26,7 +26,7 @@ const Navbar = () => {
 		isSeller: true,
 	}
 
-	// const currentUser = 0
+	// const currentUser = false
 
 	return (
 		<div

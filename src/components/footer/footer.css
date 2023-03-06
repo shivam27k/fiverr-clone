@@ -1,0 +1,107 @@
+.container-footer {
+    border-top: 1px solid lightgray;
+    padding: 5rem 18rem 0 18rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.container-footer .top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.99rem;
+    opacity: 0.6;
+    padding-bottom: 5rem;
+}
+
+.container-footer .top h2 {
+    font-size: 0.95rem;
+}
+
+.container-footer .top .link-footer {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.container-footer .top .link-footer:hover {
+    text-decoration: underline;
+}
+
+.container-footer .top .item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.04rem;
+}
+
+.container-footer .bottom {
+    display: flex;
+
+}
+
+.container-footer .bottom {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+    border-top: 1px solid lightgray;
+}
+
+.container-footer .bottom .left {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.container-footer .bottom .left {
+    font-size: 0.8rem;
+}
+
+.container-footer .bottom .right {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.container-footer .bottom .right .link {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 3rem;
+    font-size: 0.9rem;
+}
+
+.container-footer .bottom .right .link:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.container-footer .bottom .right .social {
+    display: flex;
+    align-items: center;
+}
+
+.container-footer .bottom .right .social img {
+    margin: auto 0.7rem;
+}
+
+
+.bottom img {
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+
+.container-footer .bottom .right .accessibility {
+    width: 2rem;
+    height: 2rem;
+}
+
+.container-footer .bottom .right .accessibility:hover {
+    background-color: lightgray;
+    border-radius: 50%;
+}

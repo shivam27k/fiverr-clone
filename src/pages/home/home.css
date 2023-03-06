@@ -133,10 +133,11 @@
     border: none;
     outline: none;
     cursor: pointer;
+    transition: 0.5s all ease;
 }
 
 .features-2 .container .item .title button:hover {
-    opacity: 0.8;
+    opacity: 0.76;
 }
 
 .features-2 .container .item .title img {

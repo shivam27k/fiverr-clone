@@ -1,0 +1,57 @@
+.marketPlace {
+    padding: 5rem 11.5rem;
+}
+
+.marketPlace h1 {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.marketPlace .items {
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.8rem 1rem 2.5rem 1rem;
+}
+
+.marketPlace .items .item {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 3rem 0rem 3rem;
+    cursor: pointer;
+}
+
+.marketPlace .items .item hr {
+    width: 3rem;
+    border: none;
+    outline: none;
+    height: 2px;
+    background-color: lightgray;
+    margin: 0 0 1rem 0;
+    transition: 0.5s ease;
+}
+
+.marketPlace .items .item:hover hr {
+    height: 2px;
+    width: 6rem;
+    background-color: green;
+}
+
+.marketPlace .items .item p {
+    width: max-content;
+    height: 2rem;
+    margin: 0.01rem;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+
+
+.marketPlace .items .item img {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+}
