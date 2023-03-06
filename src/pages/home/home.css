@@ -58,61 +58,71 @@
 
 
 
-.features:last-child {
+.features-2 {
+    padding: 6rem 16rem;
+
     background-color: #0d084d;
 }
 
-.features:last-child .container {
+.features-2 .container {
     display: flex;
     gap: 1rem;
 }
 
-.features:last-child .container .item {
+.features-2 .container .item {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 0.5rem;
 }
 
-.features:last-child .container .item h1 {
+.features-2 .container .item h1 {
     font-size: 2rem;
     color: white;
     width: 26rem;
     padding-bottom: 1.8rem;
 }
 
-.features:last-child .container .item .head {
+.features-2 .container .item .head {
     font-size: 1.7rem;
     font-weight: 700;
     padding-bottom: 1.5rem;
 }
 
-.features:last-child .container .item h1 .first-span {
+.features-2 .container .item h1 .first-span {
     font-style: normal;
     font-weight: 400;
 }
 
-.features:last-child .container .item h1 span {
+.features-2 .container .item h1 span {
     font-style: italic;
     font-weight: 400;
 }
 
 
-.features:last-child .container .item p {
+.features-2 .container .item p {
     padding-bottom: 1.8rem;
     color: white;
     width: 30rem;
     font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;
 }
 
-.features:last-child .container .item .title {
+.features-2 .container .item .title {
     width: 35rem;
     color: white;
-    /* gap: rem; */
     padding: 1rem 0 0 0;
     font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.08rem;
+    font-family: 'Roboto', sans-serif;
 }
 
-.features:last-child .container .item .title button {
+.features-2 .container .item .title button {
     margin-top: 2.1rem;
     padding: 0.7rem 1.5rem;
     color: white;
@@ -122,16 +132,21 @@
     font-size: 1rem;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
-.features:last-child .container .item .title img {
-    width: 1.3rem;
-    opacity: 0.4; 
+.features-2 .container .item .title button:hover {
+    opacity: 0.8;
+}
+
+.features-2 .container .item .title img {
+    width: 1.5rem;
 }
 
 
-.features:last-child .container .item .feature-image {
+.features-2 .container .item .feature-image {
     width: 100%;
-    /* border: 2px solid green; */
-    /* padding: 2rem; */
 }
+
+/* background for slide */
+

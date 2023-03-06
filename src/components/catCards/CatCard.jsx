@@ -1,7 +1,7 @@
-/* eslint-disable react/prop-types */
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './catCard.css'
+
 
 const CatCard = ({ item }) => {
 	return (
@@ -14,5 +14,4 @@ const CatCard = ({ item }) => {
 		</Link>
 	)
 }
-
 export default CatCard

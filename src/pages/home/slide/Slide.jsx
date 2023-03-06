@@ -3,11 +3,11 @@ import React from 'react'
 import './slide.css'
 import Slider from 'infinite-react-carousel'
 
-const Slide = ({ children, slidesToShow, arrowsScroll, centerPadding }) => {
+const Slide = ({ children, slidesToShow, arrowsScroll, centerPadding, content }) => {
 	return (
 		<div className="slide">
 			<div className="container">
-				<h1>Popular professional services</h1>
+				<h1>{content}</h1>
 
 				<Slider
 					slidesToShow={slidesToShow}

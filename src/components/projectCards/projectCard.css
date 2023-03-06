@@ -1,0 +1,85 @@
+* .link {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.projectCard {
+    /* border: 2px solid red; */
+    width: 21rem;
+    height: 18rem;
+    top: 0;
+    bottom: 0px;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+
+.projectCard img {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: 70%;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+}
+
+.projectCard .info {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    right: 0;
+    left: 0;
+    margin: 0.86rem auto;
+    padding-left: 1.2rem;
+    gap: 0.7rem;
+}
+
+.projectCard .info img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.projectCard .info .texts h2 {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.projectCard .info .texts span {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+/* 
+
+.catCard {
+    width: 15rem;
+    height: 100%;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+.catCard .desc {
+    font-weight: 300;
+    font-size: 0.9rem;
+    top: 1.5rem;
+    left: 1.5rem;
+    position: absolute;
+}
+
+.catCard .title {
+    font-weight: 500;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 2.65rem;
+    left: 1.5rem;
+} */
